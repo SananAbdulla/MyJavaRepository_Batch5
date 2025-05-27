@@ -1,4 +1,4 @@
-package day06_b_unary_operators;
+package day06_a_arithmetic_operators;
 
 public class CastingExample {
     public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class CastingExample {
 
 
         System.out.println();
-        float num3 = 3.4F;
+        float num3 = 3.4765F;
         short num4 = (short)num3;  // going from BIG to SMALL (Assigning the BIG into SMALL) NARROWING CASTING - happens MANUALLY (EXPLICITLY) - there might be a DATA LOSS
         // short num5 = (int)num3;     // going from FLOAT to INT -- > INT is bigger than SHORT
         short num6 = (byte)num3;     // going from FLOAT to BYTE -- > BYTE is smalled than SHORT - so it can hold it - No need to EXPLICIT casting

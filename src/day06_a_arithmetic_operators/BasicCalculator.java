@@ -1,4 +1,4 @@
-package day06_b_unary_operators;
+package day06_a_arithmetic_operators;
 
 public class BasicCalculator {
     public static void main(String[] args) {
@@ -22,6 +22,8 @@ public class BasicCalculator {
         System.out.println(num1 + " * " + num2 + " = " + multiplication );
         System.out.println(num1 + " / " + num2 + " = " + division );
         System.out.println(num1 + " % " + num2 + " = " + remainder );
+
+
 
 
         num1 = 13;
@@ -81,6 +83,11 @@ public class BasicCalculator {
         byte b6 = 5;
         byte b7 = 4;
         // byte b3 = b6 * b7; // int
+
+
+
+        System.out.println(9 % 5 );
+
 
 
 

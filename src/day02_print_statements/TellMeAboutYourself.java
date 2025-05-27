@@ -7,7 +7,8 @@ public class TellMeAboutYourself {
         System.out.println("Sanan");
         System.out.println("I am from Azerbaijan");
         System.out.println("My favorite color is Turquoise");
-
+        System.out.println("Horse");
+        System.out.println("Playing football");
 
 
     }
