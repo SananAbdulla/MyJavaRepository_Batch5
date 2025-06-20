@@ -53,6 +53,11 @@ public class IndexOfMethod {
 
         System.out.println( str.indexOf("np")); // 2
 
+        System.out.println("****************");
+
+        System.out.println("Azerbaijan".indexOf('r'));
+        System.out.println("Azerbaijan".lastIndexOf('a'));
+
 
     }
 }
