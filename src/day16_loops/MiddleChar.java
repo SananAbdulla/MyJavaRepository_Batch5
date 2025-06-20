@@ -13,7 +13,7 @@ package day16_loops;
 public class MiddleChar {
     public static void main(String[] args) {
         //   COUNT     1234567   -- >  8, mid1 = 8/2 = 4 - 1 = 3, mid2 = 8/2 = 4  |********|   -- > 7, mid = 7/2 = 3
-        String word = "elephan";
+        String word = "baku";
         //   INDEX     01234567
         String mid = "";
 
