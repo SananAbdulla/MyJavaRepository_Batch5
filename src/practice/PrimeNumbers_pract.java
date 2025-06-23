@@ -9,25 +9,20 @@ public class PrimeNumbers_pract {
         Scanner key = new Scanner(System.in);
         System.out.println("Please enter number");
         int number = key.nextInt();
-        int count= 0;
+        int count = 0;
 
-        for (int i = 1; i <=number ; i++) {
-
+        for (int i = 1; i <=30 ; i++) {
             if (number % i == 0) {
                 count++;
             }
-        }
-
-            if (count == 2) {
-                System.out.println(number + " is Prime number");
-            }
-            else {
-                System.out.println(number +" is not Prime number");
-
-            }
 
         }
-
+        if (count == 2) {
+            System.out.println("It is Prime Number");
+        }
+        else {
+            System.out.println("It is not Prime number");
+        }
 
     }
-
+}

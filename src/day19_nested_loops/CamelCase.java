@@ -43,7 +43,7 @@ public class CamelCase {
         // today is sunday
         // 01234567890....
 
-        camelcase = camelcase.replace(" ", "");
+        camelcase = camelcase.replace(" ", "  ");
         System.out.println(camelcase);
 
 
