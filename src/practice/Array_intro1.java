@@ -14,6 +14,7 @@ public class Array_intro1 {
 
             newNums [i] = nums[i];
 
+
         }
 
         System.out.println(Arrays.toString(newNums));

@@ -10,7 +10,7 @@ public class CharArray {
         System.out.println("Print: " + word);
 
 
-        System.out.println("-------------------");
+        System.out.println("--------+++-----------");
         char []  letters = {'l', 'o', 'o', 'p', 'c', 'a', 'm', 'p'};
         System.out.println("char array size: " + letters.length);
         System.out.println(letters); // why this does not give me memory location but give actual String
@@ -36,7 +36,7 @@ public class CharArray {
         System.out.println(Arrays.toString(wordLetters));
 
 
-        System.out.println("-------------------");
+        System.out.println("------====-------------");
         // .toCharArray() --- >  will do exact same thing as the one above
         char [] wordLetters2 = word.toCharArray();
         System.out.println(Arrays.toString( wordLetters2 ));
