@@ -19,7 +19,10 @@ public class CountNumbers {
         countUpToNum(a);
 
         countUpToNum(-10);
+
+
     }
+
 
     public static void countUpToNum (int num) {
 
@@ -28,4 +31,6 @@ public class CountNumbers {
         }
         System.out.println();
     }
+
+
 }

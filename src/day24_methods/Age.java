@@ -21,6 +21,8 @@ public class Age {
         // userBirthYear = 1990;
         System.out.println("Your age: " + (2024 - year) );
         // System.out.println("Your age: " + (Year.now().getValue() - year) ); // Year.now().getValue()--- >  utility clas in Java, which returns you the current year.
+
+        System.out.println(Year.now().getValue());
     }
 
 

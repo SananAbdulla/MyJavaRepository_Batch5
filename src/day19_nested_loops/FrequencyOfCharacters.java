@@ -12,6 +12,8 @@ package day19_nested_loops;
     e - 1
 
  */
+
+// TODO remember
 public class FrequencyOfCharacters {
 
     public static void main(String[] args) {
