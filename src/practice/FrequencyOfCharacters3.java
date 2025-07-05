@@ -11,7 +11,7 @@ public class FrequencyOfCharacters3 {
             int count = 0;
             char outterLoop = str.charAt(i);
 
-            if ( (unique).contains(outterLoop+"")) {
+            if ( unique.contains(outterLoop+"")) {
                 continue;
 
             }
