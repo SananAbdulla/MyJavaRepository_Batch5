@@ -50,7 +50,54 @@ public class ArrayUtil {
     }
 
     /**
+     *  here i give a number to arr and all of numbers must be existed in the var args otherwise it will return false
+     * @param a has to be in a arr
+     * @param b has to be in a arr
+     * @param c has to be in a arr
+     * @param arr
+     * @return has to be either true or false
+     */
+    public static boolean contains(int a, int b, int c, int... arr) {
+
+
+//        for (int each : arr) {
+//
+//            if (each == a || each == b || each == c) {
+//                return true;
+//            }
+//
+//
+//        }
+//
+//        return false;
+
+        boolean foundA = false;
+        boolean foundB = false;
+        boolean foundC = false;
+
+        for (int each : arr) {
+
+            if (each == a) {
+                foundA = true;
+            }
+            if (each == b) {
+                foundB = true;
+            }
+            if (each == c) {
+                foundC = true;
+            }
+
+        }
+
+
+
+        return foundA && foundB && foundC;
+
+    }
+
+    /**
      * find MIN value in 2D Array
+     *
      * @param arr giver array
      * @return Min value in 2D Arr
      */
@@ -80,6 +127,7 @@ public class ArrayUtil {
 
     /**
      * find MAX value in 2D Array
+     *
      * @param arr giver array
      * @return Max value in 2D Arr
      */
@@ -104,4 +152,61 @@ public class ArrayUtil {
         }
         return max;
     }
+
+    /**
+     * This method returns the index of given int num from the given int array
+     *
+     * @param arr given int array
+     * @param num given in value
+     * @returns the index of value if exists, if not returns -1
+     */
+    public static int indexOf(int[] arr, int num) { // 78
+        int index = -1;
+
+        for (int i = 0; i < arr.length; i++) { // {12, 34, 6, 78, 34, 9, 33};
+
+            if (arr[i] == num) {
+                index = i;
+                break;
+            }
+        }
+        return index;
+    }
+
+
+    /**
+     * This method returns the index of given String str from the given String array
+     *
+     * @param arr given String array
+     * @param str given in value
+     * @returns the index of value if exists, if not return s-1
+     */
+    public static int indexOf(String[] arr, String str) { // "api"
+        int index = -1;
+
+        for (int i = 0; i < arr.length; i++) { // "java", "selenium", "api", "db"
+
+            if (arr[i].equals(str)) {
+                index = i;
+                break;
+            }
+        }
+        return index;
+    }
+
+
+    /**
+     * This method return the total sum of all the numbers in given int array
+     *
+     * @param arr given int array
+     * @returns the total sum of all elements
+     */
+    public static int sum(int... arr) { // {1, 3, 5, 23, 65, 76};
+        int total = 0;
+        for (int each : arr) {
+            total += each;
+        }
+        return total;
+    }
+
 }
