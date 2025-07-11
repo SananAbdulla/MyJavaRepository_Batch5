@@ -209,4 +209,28 @@ public class ArrayUtil {
         return total;
     }
 
+    /**
+     *
+     *
+     * @param arr
+     * @param values
+     * @return
+     */
+    public static int [] addElementIntoArray (int [] arr, int ... values) {
+
+        int [] addedElementArr = Arrays.copyOf(arr, arr.length + values.length);
+
+        for (int i = arr.length, j = 0;  i < addedElementArr.length ; i++, j++) {
+
+            addedElementArr[i] = values[j];
+
+        }
+
+
+
+
+        return addedElementArr;
+    }
+
+
 }

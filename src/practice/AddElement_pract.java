@@ -63,6 +63,7 @@ public class AddElement_pract {
 
         for (int i = arr1.length; i < newArray.length ; i++) {
 
+            System.out.println("Please enter additonal elements in index of: " + i);
             newArray [i] = key.nextInt();
 
         }
