@@ -61,7 +61,11 @@ public class ReverseArray {
         System.out.println("Original: " + Arrays.toString(arr));
         System.out.println("Reversed2: " + Arrays.toString(reversed2));
 
+        int i = 1;
+        for (String str ="hi";  i<5 ; i++) {
+            System.out.println(i);
 
+        }
 
     }
 }
