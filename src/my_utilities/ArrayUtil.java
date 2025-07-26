@@ -1,5 +1,6 @@
 package my_utilities;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
@@ -230,6 +231,24 @@ public class ArrayUtil {
 
 
         return addedElementArr;
+    }
+
+    /**
+     *
+     * @param  - Given ArrayList of Strings
+     * @return - ArrayList of Strings
+     */
+    public static ArrayList<String> reverseAllInList (ArrayList <String> originalList) {
+
+        ArrayList <String> reversedList = new ArrayList<>(); // "ted", "talk", "learn" --- > "det", "klat", "nrael"
+
+
+        for ( String each : originalList) {
+            // Here we also called our own custom reusable class which had a method called .reverse(String str);
+            reversedList.add( StringUtil.reverse( each ) );
+        }
+
+        return reversedList;
     }
 
 
