@@ -31,10 +31,10 @@ public class Recap {
         System.out.println( Arrays.toString(arr2));
 
 
-        System.out.println();
+        System.out.println("------==========--------");
         // how to join elements in Array / how to covert array into String
         String [] strArr = {"java", "selenium", "jira", "sprint", "release"};
-        String str2 = String.join("", strArr);
+        String str2 = String.join(" ", strArr);
         System.out.println(str2);
         System.out.println( String.join("##", strArr)  );
 

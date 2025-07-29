@@ -46,7 +46,7 @@ public class CopyOfExample {
         System.out.println(Arrays.toString( y ));
 
 
-        System.out.println("---------------");
+        System.out.println("-----====----------");
         int [] z = new int[a.length * 2];  // size 6
         System.out.println(Arrays.toString( z ));
         for (int i = 0; i < a.length; i++) { // 6
@@ -56,7 +56,7 @@ public class CopyOfExample {
 
 
 
-        System.out.println();
+        System.out.println("========");
         int [] z2 = Arrays.copyOf(a, a.length * 2);
         System.out.println(Arrays.toString( z2 ));
 
