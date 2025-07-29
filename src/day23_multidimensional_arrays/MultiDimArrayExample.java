@@ -27,7 +27,7 @@ public class MultiDimArrayExample {
                 {50}                // SINGLE dimensional array which has 1 element --  index 3
         };
 
-
+        System.out.println("-------------");
         System.out.println(arr2D.length);
         System.out.println(arr2D[0].length);
         System.out.println(arr2D[1].length);

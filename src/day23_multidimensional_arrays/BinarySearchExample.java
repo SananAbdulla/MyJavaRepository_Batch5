@@ -20,11 +20,11 @@ public class BinarySearchExample {
         System.out.println(  Arrays.binarySearch(arr, 120)  );
 
 
-        System.out.println();
+        System.out.println("++++++++++++++");
         // Can we write our own code to find the index of the element
         int [] arr2 = {4, 55, 4, 10, -1, 30, 100, 150};  // size 8
         //             0   1  2   3   4   5   6   7
-        int num = -1000;
+        int num = 55;
 
         for (int i = 0; i < arr2.length; i++) {
 
