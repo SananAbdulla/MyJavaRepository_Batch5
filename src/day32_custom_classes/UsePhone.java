@@ -1,5 +1,7 @@
 package day32_custom_classes;
 
+import java.util.Arrays;
+
 // Runner Class - main() method is used to start the execution.
 public class UsePhone {
     public static void main(String[] args) {
@@ -45,7 +47,10 @@ public class UsePhone {
         Phone phone5 = new Phone("Galaxy", "Samsunq", 128);
         System.out.println(phone5);
 
+        System.out.println("-----");
+        Phone [] allPhone =  {phone1, phone2, phone3};
 
+        System.out.println(Arrays.toString(allPhone));
 
 
     }
