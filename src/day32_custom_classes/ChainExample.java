@@ -5,6 +5,7 @@ public class ChainExample {
 
     // 1st Constructor - NON-Parameterized Constructor
     public ChainExample () {
+
         System.out.println("First");
     }
 

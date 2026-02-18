@@ -14,7 +14,7 @@ package day18_loops;
 public class CountLetters {
     public static void main(String[] args) {
 
-        String word = "aabbcaa";
+        String word = "aabbcaaz";
         //             0123456
         char letter = 'z';
         int count = 0;

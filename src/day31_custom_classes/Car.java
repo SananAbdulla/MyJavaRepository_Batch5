@@ -26,39 +26,43 @@ package day31_custom_classes;
 
     Create a separate class to create Car objects and test the methods created
  */
-
-
-// Template class
 public class Car {
-    // Instance variables - fields
+
+    // INSTANCE VARIABLES
+    // - belongs to each object of this class (each object has its own copy/version of these variables)
     String model;
     int year;
     String color;
     double fuelLevel;
 
-    public String toString() {
-        return "Car Info: " +
-                "\n\tModel: " + model +
-                "\n\tColor: " + color +
-                "\n\tYear: " + year +
-                "\n\tFuel Level: " + fuelLevel;
+    // INSTANCE METHODS
+    //  - belongs to objects (each object will run itw own version - if instance variables are used)
+    //  - instance methods DO NOT have "static"
+
+    // This is special method that is being used to print the object info directly.
+    public String toString (){
+        return  "Car Info: "
+                + "\n\tModel: " + model
+                + "\n\tYear: " + year
+                + "\n\tColor: " + color
+                + "\n\tFuel Level: " +fuelLevel;
+        // return msg;
     }
 
 
-    public void drive (){
-        System.out.println("driving " + model);
-        fuelLevel -= 5;
+    public  void drive (){
+        System.out.println("Driving " + model);
     }
+
 
     public void fillTank () {
-        System.out.println("filling tank");
-        fuelLevel = 100; // reassign to 100
+        System.out.println("Filling tank...");
+        fuelLevel = 100;
     }
 
-
-    public boolean isFuelLevelLow () {
-        return fuelLevel < 25; // 100 < 25
+    public boolean isLow () {
+        return fuelLevel < 25;
     }
-
 
 }
+

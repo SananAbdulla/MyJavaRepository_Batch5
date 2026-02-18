@@ -52,5 +52,12 @@ public class CharArray {
         System.out.println(word3);
 
 
+        String str = "Hello";
+
+        char [] strArr = str.toCharArray();
+
+        System.out.println(Arrays.toString(strArr));
+
+
     }
 }

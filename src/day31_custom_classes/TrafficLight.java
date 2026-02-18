@@ -1,30 +1,29 @@
 package day31_custom_classes;
-
-// Template class
 public class TrafficLight {
+    // RULE 1
+    //  - If no explicit constructor declared, compiler adds default constructor (hidden)
+    //  - default constructors - are NON-PARAMETERIZED
+    //  - default constructor  --- > public className () { ... }
+    //  - public TrafficLight () { }
 
 
-    // Rule 1
-    // If in the class, we do NOT have any EXPLICITLY declared constructor, there is DEFAULT constructor there
-    // Default constructor does NOT have any parameters
-    // Is not declared explicitly -  It is hidden
-    // public className () { }
-
-
-    // Rule 2
-    // Once you declared a constructor explicitly, the compiler does NOT create a DEFAULT CONSTRUCTOR>
+    // RULE 2
+    //  - If constructor declared explicitly, the compiler does NOT add default constructor
     //public TrafficLight () {
     //
     //}
 
 
-    // Instance variable
+    // INSTANCE VARIABLE
     String color;
 
-    // Declared a CONSTRUCTOR
-    public TrafficLight (String color1) {
-        color = color1;
+    // Creating Constructor - declared custom constructor explicitly
+    public TrafficLight (String trafficLight){
+        color = trafficLight;
     }
+
+
+
 
 
 

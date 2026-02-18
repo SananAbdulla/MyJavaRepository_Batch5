@@ -15,6 +15,7 @@ public class Initials {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         System.out.print("Please, enter your first name: ");
+
         String firstName = keyboard.next().toUpperCase(); // tom --- > TOM
         System.out.print("Please, enter your last name: ");
         String lastName = keyboard.next().toUpperCase();
@@ -22,7 +23,7 @@ public class Initials {
         char firstCharOfFirstName = firstName.charAt(0); // TOM -- > 'T'
         char firstCharOfLasName = lastName.charAt(0);
 
-        System.out.println( "" + firstCharOfFirstName + firstCharOfLasName );
+        System.out.println("" + firstCharOfFirstName + firstCharOfLasName );
 
     }
 }

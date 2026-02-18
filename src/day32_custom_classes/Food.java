@@ -36,6 +36,7 @@ public class Food {
 
     // 1st Constructor - name
     public Food (String name) {
+
         this.name = name;
     }
 
@@ -60,6 +61,7 @@ public class Food {
 
     // Instance method -  does not have "static"
     public void calculateTotalPrice () {
+
         totalPrice = quantity * unitPrice;
     }
 

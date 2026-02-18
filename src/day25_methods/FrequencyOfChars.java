@@ -58,7 +58,7 @@ public class FrequencyOfChars {
         return count;
     }
     public static void main(String[] args) {
-        int num1 = frequencyOfLetters("apple", 'p');
+        int num1 = frequencyOfLetters("apple", 'a');
         System.out.println(num1);
         System.out.println(  frequencyOfLetters2("apple", 'p')  );
 

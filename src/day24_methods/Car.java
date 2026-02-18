@@ -1,5 +1,7 @@
 package day24_methods;
 
+import java.util.Arrays;
+
 /*
     unlock car
     open the door
@@ -22,6 +24,7 @@ public class Car {
     public static void getInCar () {
         System.out.println("Sitting in the car.");
         System.out.println("Closing the door.");
+
     }
 
     public static void getReady (){
@@ -47,6 +50,9 @@ public class Car {
         startCar();
         drive();
     }
+
+
+
 
     public static void main(String[] args) {
         unlockCar(); // Calling .unlockCar() method

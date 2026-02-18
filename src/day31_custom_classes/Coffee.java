@@ -30,6 +30,7 @@ public class Coffee {
 
 
     public void drink () {
+
         System.out.println( "Drinking " + type + " type of coffee" );
     }
 

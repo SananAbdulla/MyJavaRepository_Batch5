@@ -22,6 +22,8 @@ public class EscapeSequence {
 
         System.out.println("iphone\n\tlaptop\nxbox\n\twebcam\nmonitor");
 
+        System.out.println("\"Sanan\", \"Abdullayev\"");
+
     }
 
 }

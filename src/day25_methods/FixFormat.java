@@ -20,7 +20,7 @@ import my_utilities.StringUtil;
 public class FixFormat {
 
     public static void main(String[] args) {
-        fixFormat("MICKY");  // Micky
+        System.out.println("fixFormat(\"MICKY\") = " + fixFormat("MICKY"));  // Micky
         System.out.println( fixFormat("MOUse") );
 
         String name = "TOM";

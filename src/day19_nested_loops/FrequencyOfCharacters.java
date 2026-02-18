@@ -17,7 +17,6 @@ package day19_nested_loops;
 public class FrequencyOfCharacters {
 
     public static void main(String[] args) {
-
         String str = "Azerbaijan";
         //            01234
         String unique = "";  // "ap"
