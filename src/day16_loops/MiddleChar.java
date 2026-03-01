@@ -37,6 +37,22 @@ public class MiddleChar {
         System.out.println(mid);
 
 
+
+        String str = "Azeris";
+        String middle = "";
+
+
+        if (str.length() % 2 == 0) {
+            middle = str.substring(str.length()/2 - 1, str.length()/2 +1 );
+        }
+        else {
+            middle = "" + str.charAt((str.length()/2));
+        }
+
+        System.out.println(middle);
+
+
+
     }
 }
 

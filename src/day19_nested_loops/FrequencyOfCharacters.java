@@ -12,17 +12,18 @@ package day19_nested_loops;
     e - 1
 
  */
+
+// TODO remember
 public class FrequencyOfCharacters {
 
     public static void main(String[] args) {
-
-        String str = "apple";
+        String str = "Azerbaijan";
         //            01234
         String unique = "";  // "ap"
 
         for (int i = 0; i < str.length(); i++) {
-            int count = 0;
             char outerLetter = str.charAt(i);                // a
+            int count = 0;
 
             if (unique.contains( "" + outerLetter  )){  // "ap".contains("p") -- >
                 continue;
@@ -43,7 +44,7 @@ public class FrequencyOfCharacters {
 
         }
 
-
+        System.out.println(unique);
     }
 
 }

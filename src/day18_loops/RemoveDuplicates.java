@@ -26,5 +26,28 @@ public class RemoveDuplicates {
         System.out.println("Original str: " + str);
         System.out.println("Removed duplicates: " + unique);
 
+        System.out.println();
+
+        removeDuplicates("Azerbaijananzw");
+
+    }
+
+
+
+    public static void removeDuplicates(String str1) {
+
+        String unique = "";
+
+        for (int i = 0; i < str1.length(); i++) {
+            char each = str1.charAt(i);
+
+            if (!unique.contains(""+each)) {
+                unique += each;
+            }
+
+        }
+
+        System.out.println(unique);
+
     }
 }

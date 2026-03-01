@@ -11,6 +11,8 @@ public class TellMeAboutYourself {
         System.out.println("Playing football");
 
 
+        System.out.println("I like Java ");
+
     }
 
 

@@ -5,9 +5,9 @@ public class IndexOfMethod {
         String str = "penpen";
         //            012345
 
-        char fistChar = str.charAt(0);
+        char firstChar = str.charAt(0);
         System.out.println(  str.indexOf('p')  );
-        System.out.println(  str.indexOf(fistChar)  );
+        System.out.println(  str.indexOf(firstChar)  );
         System.out.println(  str.indexOf("p")  );
 
         System.out.println("----");

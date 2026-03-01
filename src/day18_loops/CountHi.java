@@ -24,7 +24,26 @@ public class CountHi {
 
 
 
+        String hi = "ghjklghjkhighjkjhhighjklghi";
+
+        int countHi = 0;
+
+
+        for (int i = 0; i <hi.length() ; i++) {
+
+            if (hi.charAt(i) == 'h' && hi.charAt(i+1) == 'i'  ) {
+                countHi++;
+
+            }
+
+
+        }
+        System.out.println("we have, " + countHi + " times of Hi in the word");
+
 
     }
+
+
+
 
 }

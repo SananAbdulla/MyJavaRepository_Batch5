@@ -17,6 +17,26 @@ public class Factorial {
 
         System.out.println(result);
 
+        int i = 0;
+        while (5 > i) {
+            System.out.println(i);
+            i++;
+
+        }
+
+        int k = 0;
+
+        do {
+            System.out.println(k);
+            k++;
+        }
+            while (k < 5);
+
+
+
+
+
+
     }
 }
 

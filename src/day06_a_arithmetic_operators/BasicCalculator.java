@@ -88,6 +88,12 @@ public class BasicCalculator {
 
         System.out.println(9 % 5 );
 
+        int z = 20;
+        System.out.println(z++);
+        System.out.println(z--);
+        System.out.println(z);
+
+
 
 
 
